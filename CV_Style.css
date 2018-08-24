@@ -1,0 +1,68 @@
+th{
+	/*Deals with the ackward bolding*/
+	font-weight: normal;
+}
+
+.jumbotron{
+	/*You can edit just part of a Bootstrap to your liking*/
+	/*Photo by kiki Wang on Unsplash*/
+	background-image: url("Pictures/UPS/P-02.jpg");
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cv_part{
+	max-width: 75%;
+	width: 75%;
+	margin: auto;
+	/*Turns out the following line does nothing.*/
+	/*text-align: left;*/
+}
+
+.cv_part table{
+	table-layout: fixed;
+	width: 100%;
+}
+
+.cv_part table tbody tr th:nth-of-type(2){
+	text-align: right;
+	align-self: right;
+
+}
+
+.cv_part table thead tr th:nth-of-type(2){
+	text-align: right;
+	float: right;
+}
+
+.cv_part table th:nth-of-type(1){
+	display: inline-block;
+} 
+
+nav li a:link{
+	color: black;
+}
+nav li a:visited{
+	color: black;
+}
+.P_link:link{
+	color: black;
+}
+.P_link:visited{
+	color: black;
+}
+hr{
+	/*This was a copied and pasted set of code used to generate a line*/
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.control_pannel li:nth-of-type(3){
+	float: right;
+	margin-right: none;
+	margin: auto;
+}
+#pub1{
+	display: inline-block;
+}

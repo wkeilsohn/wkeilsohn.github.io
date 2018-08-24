@@ -1,0 +1,42 @@
+.home_image{
+	width: 20%;
+	height: auto;
+}
+
+hr{
+	/*This was a copied and pasted set of code used to generate a line*/
+	/*Color was modified to fit the theme better.*/
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+#lander{
+	text-align: center;
+	margin-top: 25%;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	text-shadow: 2px 2px #989898;
+}
+
+@media (min-width: 960px){
+	#lander{
+		margin-top: 15%;
+		margin-bottom: auto;
+	}
+}
+
+body, html{
+	/*Photo by Matt Hardy on Unsplash*/
+	background: url("Pictures/UPS/P-03.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	background-position: center;
+}
+h1{
+	font-size: 100px;
+}
+h2{
+	font-size: 50px;
+}
