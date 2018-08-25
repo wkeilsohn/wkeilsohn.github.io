@@ -88,10 +88,11 @@ table{
 
 body{
 	background-image: url("Pictures/UPS/P-04.jpg");/*Photo by Christian Werther on Unsplash*/
-	background-repeat: no-repeat;
 	background-size: cover;
+	background-repeat: no-repeat;
 	height: 100%;
 	background-position: center center;
+	min-height: 100%;
 	background-image: center;
 }
 
