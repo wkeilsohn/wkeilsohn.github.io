@@ -12,9 +12,6 @@
 	margin-bottom: 25px;
 	background-image: url("Pictures/Bar/P4.jpg");
 	background-repeat: no-repeat;
-	/*display: flex;*/
-	/*align-items: center;*/
-	/*justify-content: center;*/
 	background-size: cover;
 	border: none;
 	margin-top: 30px;
@@ -67,7 +64,12 @@ button:hover{
 #second{
 	text-indent: 48px;
 }
+
 #third{
+	text-indent: 48px;
+}
+
+#fourth{
 	text-indent: 48px;
 }
 
